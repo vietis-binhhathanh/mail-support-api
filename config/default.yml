@@ -1,0 +1,15 @@
+server:
+  port: 3000
+
+db:
+  host: 'mysql-instance.cynhdm0qetif.ap-southeast-1.rds.amazonaws.com'
+  username: 'awsroot'
+  password: 'Awsbinhmysql'
+  type: 'mysql'
+  port: 3306
+  database: 'db_mail_support'
+  synchronize: true
+
+jwt:
+  expiresIn: 600
+  secret: 'secretText'
